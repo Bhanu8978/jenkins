@@ -3,7 +3,7 @@ agent any
 stages{
 stage('checkout code'){
   steps{
-    git 'https://github.com/Bhanu8978/Jenkins-pipeline'
+    git 'https://github.com/Bhanu8978/jenkins/edit/master/Jenkinsfile'
   }}
   stage('build'){
     steps{
